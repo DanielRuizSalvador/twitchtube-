@@ -10,22 +10,22 @@ CLIP_PATH = PATH + "/clips/{}/{}"
 CHECK_VERSION = True  # see if you're running the latest versions
 DEBUG = True  # If additional/debug information should be printed (True/False)
 
-DATA = ["c xQcOW", "c Trainwreckstv", "g Just Chatting"]
+DATA = ["c elxokas", "c auronplay", "c illojuan"]
 BLACKLIST = [
     "c ludwig",
     "g Pools, Hot Tubs, and Beaches",
 ]  # channels/games you dont want to be included in the video
 
 # twitch
-CLIENT_ID = ""  # Twitch Client ID
-OAUTH_TOKEN = ""  # Twitch OAuth Token
-PERIOD = 24  # how many hours since the clip's creation should've passed e.g. 24, 48 etc 0 for all time
+CLIENT_ID = "c0f1dmil9x3qdgqh8rl7wytspk5cj7"  # Twitch Client ID
+OAUTH_TOKEN = "ffmieffi4ne8qnsvjlkj2063irhppa"  # Twitch OAuth Token
+PERIOD = 168  # how many hours since the clip's creation should've passed e.g. 24, 48 etc 0 for all time
 LANGUAGE = "en"  # en, es, th etc.
 LIMIT = 100  # 1-100
 
 
 # selenium
-ROOT_PROFILE_PATH = r"C:/Users/USERNAME/AppData/Roaming/Mozilla/Firefox/Profiles/r4Nd0m.selenium"  # Path to the Firefox profile where you are logged into YouTube
+ROOT_PROFILE_PATH = r"C:\Users\Usuario\AppData\Roaming\Mozilla\Firefox\Profiles\fd5zcol9.Selenium"  # Path to the Firefox profile where you are logged into YouTube
 EXECUTABLE_PATH = r"geckodriver"
 SLEEP = 3  # How many seconds Firefox should sleep for when uploading
 HEADLESS = True  # If True Firefox will be hidden (True/False)
@@ -38,10 +38,10 @@ RESOLUTION = (
     1280,
 )  # Resolution of the rendered video (height, width) for 1080p: ((1080, 1920))
 FRAMES = 30  # Frames per second (30/60)
-VIDEO_LENGTH = 10.5  # Minimum video length in minutes (doesn't always work)
+VIDEO_LENGTH = 6  # Minimum video length in minutes (doesn't always work)
 RESIZE_CLIPS = True  # Resize clips to fit RESOLUTION (True/False) If any RESIZE option is set to False the video might end up having a weird resolution
 FILE_NAME = "rendered"  # Name of the rendered video
-ENABLE_INTRO = False  # Enable (True/False)
+ENABLE_INTRO = True  # Enable (True/False)
 RESIZE_INTRO = True  # Resize (True/False) read RESIZE_CLIPS
 INTRO_FILE_PATH = PATH + "/twitchtube/files/intro.mp4"  # Path to video file (str)
 ENABLE_TRANSITION = True
