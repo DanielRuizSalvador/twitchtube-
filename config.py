@@ -20,7 +20,7 @@ BLACKLIST = [
 CLIENT_ID = "c0f1dmil9x3qdgqh8rl7wytspk5cj7"  # Twitch Client ID
 OAUTH_TOKEN = "ffmieffi4ne8qnsvjlkj2063irhppa"  # Twitch OAuth Token
 PERIOD = 168  # how many hours since the clip's creation should've passed e.g. 24, 48 etc 0 for all time
-LANGUAGE = "en"  # en, es, th etc.
+LANGUAGE = "es"  # en, es, th etc.
 LIMIT = 100  # 1-100
 
 
